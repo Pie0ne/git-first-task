@@ -224,3 +224,50 @@ nav img {
 .layer .icon-box .fa-lg {
 	padding: 10px;
 }
+
+.circle {
+	position: relative;
+}
+
+.circle .layer  {
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	border-radius: 50%;
+	display: none;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+.circle:hover .layer {
+	display: block;
+	cursor: pointer;
+}
+
+.circle p {
+	color: #5c5c5a;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.circle img {
+	width: 100%;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}	
+
+.layer .icon-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.col-3 .name p {
+	font-weight: 700;
+    font-size: 30px;
+   	color: #585856;
+}
